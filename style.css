@@ -60,9 +60,15 @@ header{
  text-align: center;
 }
 
-.p-title{
+.title{
   font-size: 32px;
   color: #000;
+}
+
+.text{
+  font-size: 16px;
+  color: #000;
+  margin: 30px 0;
 }
 
 .p-bar{
@@ -70,12 +76,6 @@ header{
   height: 3px;
   width: 70px;
   color: #ec715f;
-}
-
-.p-text{
-  font-size: 16px;
-  color: #000;
-  margin: 30px 0;
 }
 
 .item-box{
@@ -91,28 +91,110 @@ header{
 }
 
 .feature{
-  width: 100%
-}
-
-.f-title{
-  font-size: 32px;
+  width: 100%;
+  margin: 90px 0;
   text-align: center;
 }
 
-.f-text{
-  font-size: 16px;
-  text-align: center;
+.feature-main{
+  width: 980px;
+  margin: auto;
+}
+
+.f-sub{
+  display: flex;
+  justify-content: center;
 }
 
 .f-content{
-  width: 980px;
+  width: 320px;
+  text-align: center;
+}
+
+.f-2{
+  padding: 0 10px;
+}
+
+.f-sub-text{
+  font-size: 16px;
+  color: #000;
+}
+
+.f-subtitle{
+  font-size: 20px;
+  color: #000;
+}
+
+.profile{
+  background-color: #ECEFF1;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.profile-main{
+  width: 1024px;
   margin: auto;
   text-align: center;
 }
 
-.f-1{
-  width: 320px;
-  height: auto;
+.profile-text{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.profile-img{
+  width: 512px;
+}
+
+.profile-img-png{
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  border-radius: 150px;
+}
+
+.introduction{
+  width: 512px;
+  text-align: start;
+}
+
+.name{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.introduction-text{
+  font-size: 16px;
+  color: #000;
+}
+
+.skill{
+  font-size: 20px;
+  padding: 20px 0 5px;
+}
+
+.contact{
+  text-align: center;
+  padding: 90px 0;
+}
+
+.contact-main{
+  width: 800px;
+  margin: auto;
+}
+
+.contact-access{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-sub{
+  width: 400px;
+}
+
+.contact-sub-title{
+  font-size: 20px;
 }
 
 footer{
