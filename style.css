@@ -9,6 +9,12 @@ header{
   background-color: #ec715f;
 }
 
+/*.bar{*/
+/*  color: #EC715F;*/
+/*  width: 70px;*/
+/*  height: 3px;*/
+/*}*/
+
 .nav {
   height: 70px;
 }
@@ -101,6 +107,10 @@ header{
   margin: auto;
 }
 
+.f-icon{
+  font-size: 60px;
+}
+
 .f-sub{
   display: flex;
   justify-content: center;
@@ -123,6 +133,7 @@ header{
 .f-subtitle{
   font-size: 20px;
   color: #000;
+  padding: 10px 0;
 }
 
 .profile{
@@ -187,6 +198,7 @@ header{
 .contact-access{
   display: flex;
   justify-content: center;
+  padding-top: 30px;
 }
 
 .contact-sub{
@@ -195,6 +207,22 @@ header{
 
 .contact-sub-title{
   font-size: 20px;
+  margin: auto;
+  justify-content: center;
+}
+
+.icon-text{
+  font-size: 20px;
+  color: #000;
+}
+
+.c-icon{
+  font-size: 50px;
+}
+
+.c-icon-1{
+  font-size: 50px;
+  padding: 0 20px;
 }
 
 footer{
@@ -202,5 +230,7 @@ footer{
   background-color: #ec715f;
   color: #fafafa;
   font-size: 16px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
