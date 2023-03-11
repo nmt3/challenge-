@@ -9,22 +9,34 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul class="nav-list">
-          <img class="nav-img" src="logo.png">
-          <li class="nav-list-item">Portfolio</li>
-          <li class="nav-list-item">Feature</li>
-          <li class="nav-list-item">Profile</li>
-          <li class="nav-list-item">Contact</li>
-        </ul>
-      </nav>
+      <img class="nav" src="logo.png">
+      <div class="hummburger-menu">
+        <input type="checkbox" id="menu-btn-check">
+        <label for="menu-btn-check" class="menu-btn"><span></span></label>
+        <div class="menu-content">
+          <ul>
+            <li class="nav-list-item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#">Feature</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#">Profile</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <div class="main">
       <div class="main-visual">
         <p class="main-text">Lorem Ipsum</p>
         <p class="sub-text">simply dummy text printing</p>
       </div>
-      <div class="portfolio">
+      <div class="category-1">
         <p class="title">Portfolio</p>
         <p class="p-bar">-</p>
         <p class="text">
@@ -33,17 +45,17 @@
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
         <div class="item-box">
-          <img class="p-img" src="sketch.jpg">
-          <img class="p-img" src="websuku.png">
-          <img class="p-img" src="write.jpg">
+          <div class="item1"></div>
+          <div class="item2"></div>
+          <div class="item3"></div>
         </div>
         <div class="item-box">
-          <img class="p-img" src="webcamp.png">
-          <img class="p-img" src="talk.jpg">
-          <img class="p-img" src="webcamp-mother.png">
+          <div class="item4"></div>
+          <div class="item5"></div>
+          <div class="item6"></div>
         </div>
       </div>
-      <div class="feature">
+      <div class="category-2">
         <div class="feature-main">
           <p class="title">Feature</p>
           <p class="text">
@@ -82,7 +94,7 @@
           </div>
         </div>
       </div>
-      <div class="profile">
+      <div class="category-1">
         <div class="profile-main">
           <p class="title">Profile</p>
           <p class="text">
@@ -107,7 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="contact">
+      <div class="category-2">
         <div class="contact-main">
           <p class="title">Contact</p>
           <!--<p class="bar">-</p>-->
