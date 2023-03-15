@@ -290,7 +290,6 @@ footer{
     height: 50px;
   }
 
-
   .nav-list {
     font-size: 16px;
     text-align: start;
@@ -298,12 +297,33 @@ footer{
     width: 90%;
   }
 
-  body{
+  .main-visual{
+    height: 650px;
     width: 100%;
+    background-image: url(code.png);
+    background-size: auto;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
   }
 
-  .main{
-    width: 90%;
+  .main-text {
+    padding-top: 200px;
+    color: #fafafa;
+    font-size: 40px;
+  }
+
+  .sub-text {
+    padding-top: 10px;
+    color: #fafafa;
+    font-size: 18px;
+  }
+
+  .text{
+    font-size: 16px;
+    color: #000;
+    padding: 0 10%;
   }
 
   .title{
@@ -315,6 +335,9 @@ footer{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
   }
 
   .item1 { display: none !important; }
